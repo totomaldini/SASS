@@ -1,89 +1,75 @@
 
-.bg-aquamarine{
-   background-color:$mainColor;
-}
+.bg-aquamarine
+   background-color: $mainColor
 
-.image-center{
-    display: flex;
-    margin: auto;
-	justify-content: center;
-	width: $w-70;
-}
+.image-center
+    display: flex
+    margin: auto
+	justify-content: center
+	width: $w-70
 
-.img_center3{
-	display: flex;
-    margin: auto;
-	justify-content: center;
-}
+.img_center3
+	display: flex
+    margin: auto
+	justify-content: center
 
-nav ul li{
-    margin: 0 28px;
-    display: flex;
-}
+
+nav
+	ul
+		li
+			margin: 0 28px
+			display: flex
 
 h4,h3,h2
-{
-    color: $mainColor;
-}
-h5{
-    color: $econdaryColor;
-}
+    color: $mainColor
 
-.botonera-footer{
-    display: flex;
-    align-items: center;
-}
+h5
+    color: $econdaryColor
 
-.scale:hover{
-	transform: scale(1.1);
-	cursor: pointer;
-	transition: transform 0.2s;
-}
+.botonera-footer
+    display: flex
+    align-items: center
 
-.contenido4{
-	height: auto;
-	display: flex;
-	justify-content: center;
-	text-align: center;
-	padding: 10px;
-	flex-direction: column;
-	font-size: $medium;
-}
+.scale:hover
+	transform: scale(1.1)
+	cursor: pointer
+	transition: transform 0.2s
 
-.divOtp{
-	background-color: $mainColor;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	justify-content: row;
-	width: fit-content;
-	padding: 25px;
-}
+.contenido4
+	height: auto
+	display: flex
+	justify-content: center
+	text-align: center
+	padding: 10px
+	flex-direction: column
+	font-size: $medium
 
-.input-bottom{
-    display: flex;
-    justify-content: space-between;
-}
+.divOtp
+	background-color: $mainColor
+	display: flex
+	flex-direction: column
+	align-items: flex-start
+	justify-content: row
+	width: fit-content
+	padding: 25px
 
-.contenido3{
-	display: flex;
-	justify-content: center;
-	text-align: center;
-}
+.input-bottom
+    display: flex
+    justify-content: space-between
 
-.titulo__contacto{
-    color: $econdaryColor;
-    font-size: $big;	
-    text-align: center;
-}
+.contenido3
+	display: flex
+	justify-content: center
+	text-align: center
+
+.titulo__contacto
+    color: $econdaryColor
+    font-size: $big	
+    text-align: center
     
-.titulo__contacto-fondo{
-   background-color: $mainColor;
- }
-     
-.label-contacto{
-    display: table-row;	
-}
+.titulo__contacto-fondo
+   background-color: $mainColor
+ 
+.label-contacto
+    display: table-row	
     
-
-
