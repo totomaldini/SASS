@@ -1,75 +1,91 @@
 
-.bg-aquamarine
-   background-color: $mainColor
+.bg-aquamarine{
+   background-color:$mainColor;
+}
 
-.image-center
-    display: flex
-    margin: auto
-	justify-content: center
-	width: $w-70
+.image-center{
+    display: flex;
+    margin: auto;
+	justify-content: center;
+	width: $w-70;
+}
 
-.img_center3
-	display: flex
-    margin: auto
-	justify-content: center
+.img_center3{
+	display: flex;
+    margin: auto;
+	justify-content: center;
+}
 
 
 nav
 	ul
-		li
-			margin: 0 28px
-			display: flex
+		li{
+    		margin: 0 28px;
+   			display: flex;
+		}
 
 h4,h3,h2
-    color: $mainColor
+{
+    color: $mainColor;
+}
+h5{
+    color: $econdaryColor;
+}
 
-h5
-    color: $econdaryColor
+.botonera-footer{
+    display: flex;
+    align-items: center;
+}
 
-.botonera-footer
-    display: flex
-    align-items: center
+.scale:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+	transition: transform 0.2s;
+}
 
-.scale:hover
-	transform: scale(1.1)
-	cursor: pointer
-	transition: transform 0.2s
+.otrosTp{
+	height: auto;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding: 10px;
+	flex-direction: column;
+	font-size: $medium;
 
-.contenido4
-	height: auto
-	display: flex
-	justify-content: center
-	text-align: center
-	padding: 10px
-	flex-direction: column
-	font-size: $medium
+	&__cuadro{
+		background-color: $mainColor;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: row;
+		width: fit-content;
+		padding: 25px;
 
-.divOtp
-	background-color: $mainColor
-	display: flex
-	flex-direction: column
-	align-items: flex-start
-	justify-content: row
-	width: fit-content
-	padding: 25px
+		&__inputBottom{
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}
 
-.input-bottom
-    display: flex
-    justify-content: space-between
 
-.contenido3
-	display: flex
-	justify-content: center
-	text-align: center
+.titulo{
+	display: flex;
+	justify-content: center;
+	text-align: center;
 
-.titulo__contacto
-    color: $econdaryColor
-    font-size: $big	
-    text-align: center
-    
-.titulo__contacto-fondo
-   background-color: $mainColor
- 
-.label-contacto
-    display: table-row	
-    
+	&__contacto{
+		background-color: $mainColor;
+
+		&-fondo{
+			color: $econdaryColor;
+			font-size: $big;	
+			text-align: center;
+		  } 
+	}
+	
+}
+
+.label-contacto{
+	display: table-row;	
+}
