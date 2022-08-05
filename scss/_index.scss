@@ -1,19 +1,10 @@
-
-.bg-aquamarine{
-   background-color:$mainColor;
-}
-
 .image-center{
-    display: flex;
-    margin: auto;
-	justify-content: center;
+	@include d-flex(center, auto);
 	width: $w-70;
 }
 
 .img_center3{
-	display: flex;
-    margin: auto;
-	justify-content: center;
+	@include d-flex(center, auto);
 }
 
 
@@ -24,12 +15,9 @@ nav
    			display: flex;
 		}
 
-h4,h3,h2
+h4,h3,h2,h1
 {
     color: $mainColor;
-}
-h5{
-    color: $econdaryColor;
 }
 
 .botonera-footer{
@@ -43,11 +31,26 @@ h5{
 	transition: transform 0.2s;
 }
 
-.otrosTp{
-	height: auto;
+.titulo{
 	display: flex;
 	justify-content: center;
 	text-align: center;
+
+	&__contacto{
+		background-color: $mainColor;
+
+		&-fondo{
+			color: $econdaryColor;
+			font-size: $big;	
+			text-align: center;
+		  } 
+	}
+	
+}
+
+.otrosTp{
+	@extend .titulo;
+	height: auto;
 	padding: 10px;
 	flex-direction: column;
 	font-size: $medium;
@@ -66,24 +69,6 @@ h5{
 			justify-content: space-between;
 		}
 	}
-}
-
-
-.titulo{
-	display: flex;
-	justify-content: center;
-	text-align: center;
-
-	&__contacto{
-		background-color: $mainColor;
-
-		&-fondo{
-			color: $econdaryColor;
-			font-size: $big;	
-			text-align: center;
-		  } 
-	}
-	
 }
 
 .label-contacto{
